@@ -19,18 +19,18 @@ $(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk)
 
 ### Touchscreen
 PRODUCT_COPY_FILES += \
-    device/htc/marvel/idc/atmel-touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
-    device/htc/marvel/idc/cy8c-touchscreen.idc:system/usr/idc/cy8c-touchscreen.idc
+    device/htc/marvel-common/idc/atmel-touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
+    device/htc/marvel-common/idc/cy8c-touchscreen.idc:system/usr/idc/cy8c-touchscreen.idc
 
 ### Firmware
 PRODUCT_COPY_FILES += \
-    device/htc/marvel/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-    device/htc/marvel/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
-    device/htc/marvel/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin
+    device/htc/marvel-common/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
+    device/htc/marvel-common/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
+    device/htc/marvel-common/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin
 
 ### Mount vold
 PRODUCT_COPY_FILES += \
-    device/htc/marvel/vold.fstab:system/etc/vold.fstab
+    device/htc/marvel-common/vold.fstab:system/etc/vold.fstab
 
 ### System properties
 
