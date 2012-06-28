@@ -32,6 +32,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/marvel-common/vold.fstab:system/etc/vold.fstab
 
+### Add additional packages
+PRODUCT_PACKAGES += \
+    Torch
+
 ### System properties
 
 # RIL
