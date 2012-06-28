@@ -22,6 +22,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq (,$(findstring $(TARGET_BOARD_PLATFORM),marvel))
+ifneq (,$(findstring $(TARGET_BOOTLOADER_BOARD_NAME),marvel))
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
