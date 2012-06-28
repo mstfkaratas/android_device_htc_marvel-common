@@ -15,3 +15,7 @@
 ### Camera
 # Needed for froyo libcamera.so
 BOARD_USE_NASTY_PTHREAD_CREATE_HACK := true
+
+# Device specific permissions
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml
