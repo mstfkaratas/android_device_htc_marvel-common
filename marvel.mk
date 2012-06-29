@@ -36,6 +36,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Torch
 
+### Lights
+PRODUCT_PACKAGES += \
+    lights.msm7x27
+
+### Sensors (Compass, G-Sensor, Proximity, ...)
+PRODUCT_PACKAGES += \
+    sensors.msm7x27
+
 ### System properties
 
 # RIL
