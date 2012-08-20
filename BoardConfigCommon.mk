@@ -15,6 +15,7 @@
 ### Camera
 # Needed for froyo libcamera.so
 BOARD_USE_NASTY_PTHREAD_CREATE_HACK := true
+BOARD_NEEDS_MEMORYHEAPPMEM := true
 COMMON_GLOBAL_CFLAGS += -DBINDER_COMPAT
 
 # Device specific permissions
