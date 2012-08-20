@@ -32,6 +32,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/marvel-common/vold.fstab:system/etc/vold.fstab
 
+### Audio policy
+PRODUCT_COPY_FILES += \
+    device/htc/marvel-common/libaudio/audio_policy.conf:system/etc/audio_policy.conf
+
 ### Add additional packages
 PRODUCT_PACKAGES += \
     Torch
