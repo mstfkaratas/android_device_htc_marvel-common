@@ -135,7 +135,7 @@ audio_devices_t AudioPolicyManager::getDeviceForStrategy(routing_strategy strate
     case STRATEGY_MEDIA: {
         uint32_t device2 = mAvailableOutputDevices & AudioSystem::DEVICE_OUT_AUX_DIGITAL;
 #ifdef WITH_A2DP
-        if (mA2dpOutput != 0) {
+        if (getA2dpOutput() != 0) {
             if (strategy == STRATEGY_SONIFICATION && !a2dpUsedForSonification()) {
                 break;
             }
