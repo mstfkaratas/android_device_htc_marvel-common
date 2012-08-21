@@ -202,7 +202,7 @@ status_t AudioPolicyManager::checkAndSetVolume(int stream, int index, audio_io_h
         return INVALID_OPERATION;
     }
 
-    float volume = computeVolume(stream, index, output, device);
+    float volume = computeVolume(stream, index, output, (audio_devices_t)device);
     // We actually change the volume if:
     // - the float value returned by computeVolume() changed
     // - the force flag is set
