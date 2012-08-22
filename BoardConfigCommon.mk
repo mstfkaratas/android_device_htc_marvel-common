@@ -17,7 +17,3 @@
 BOARD_USE_NASTY_PTHREAD_CREATE_HACK := true
 BOARD_NEEDS_MEMORYHEAPPMEM := true
 COMMON_GLOBAL_CFLAGS += -DBINDER_COMPAT
-
-# Device specific permissions
-PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml

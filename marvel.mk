@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
     device/htc/marvel-common/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
     device/htc/marvel-common/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin
 
+### Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml
+
 ### Mount vold
 PRODUCT_COPY_FILES += \
     device/htc/marvel-common/vold.fstab:system/etc/vold.fstab
