@@ -17,6 +17,8 @@
 # dalvik heap config for devices with 512MB memory
 $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 
+DEVICE_PACKAGE_OVERLAYS += device/htc/marvel-common/overlay
+
 ### Touchscreen
 PRODUCT_COPY_FILES += \
     device/htc/marvel-common/idc/atmel-touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
