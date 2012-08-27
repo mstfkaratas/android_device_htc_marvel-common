@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+### Boot animation
+TARGET_SCREEN_HEIGHT := 480
+TARGET_SCREEN_WIDTH := 320
+
 ### Camera
 # Needed for froyo libcamera.so
 BOARD_USE_NASTY_PTHREAD_CREATE_HACK := true
