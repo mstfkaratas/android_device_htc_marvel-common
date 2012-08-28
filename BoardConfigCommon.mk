@@ -12,8 +12,3 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-### Camera
-# Needed for froyo libcamera.so
-BOARD_USE_NASTY_PTHREAD_CREATE_HACK := true
-BOARD_NEEDS_MEMORYHEAPPMEM := true
-COMMON_GLOBAL_CFLAGS += -DBINDER_COMPAT
