@@ -46,10 +46,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Torch
 
-### Add system daemons
-PRODUCT_PACKAGES += \
-    rild
-
 ### Lights
 PRODUCT_PACKAGES += \
     lights.msm7x27
