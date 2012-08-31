@@ -48,7 +48,8 @@ PRODUCT_PACKAGES += \
 
 ### Sensors (Compass, G-Sensor, Proximity, ...)
 PRODUCT_PACKAGES += \
-    sensors.msm7x27
+    sensors.msm7x27 \
+    lights.marvel
 
 ### System properties
 
