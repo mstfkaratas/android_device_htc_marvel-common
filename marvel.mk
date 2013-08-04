@@ -24,12 +24,6 @@ PRODUCT_COPY_FILES += \
     device/htc/marvel-common/idc/atmel-touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
     device/htc/marvel-common/idc/cy8c-touchscreen.idc:system/usr/idc/cy8c-touchscreen.idc
 
-### Firmware
-PRODUCT_COPY_FILES += \
-    device/htc/marvel-common/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-    device/htc/marvel-common/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
-    device/htc/marvel-common/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin
-
 ### Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml
@@ -37,10 +31,6 @@ PRODUCT_COPY_FILES += \
 ### Mount vold
 PRODUCT_COPY_FILES += \
     device/htc/marvel-common/vold.fstab:system/etc/vold.fstab
-
-### Audio policy
-PRODUCT_COPY_FILES += \
-    device/htc/marvel-common/libaudio/audio_policy.conf:system/etc/audio_policy.conf
 
 ### Add additional packages
 PRODUCT_PACKAGES += \
